@@ -1,0 +1,137 @@
+html,body{
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+	background-color: inherit;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	cursor: pointer; 
+	font-size: 1.2em;
+	padding: 10px 12px;
+	display:block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.btn2{
+	background-color: inherit;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	cursor: pointer; 
+	font-size: 1.2em;
+	padding: 10px 12px;
+}
+
+.table{
+	width: 500px;
+	border: 0px;
+	padding: 60px 5px;
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+.table2{
+	width: 800px;
+	border: 0px;
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+.select{
+	width: 205px;
+}
+
+.select-piz{
+	width: 225px;
+}
+
+.select-entra{
+	width: 180px;
+}
+
+td{
+	text-align: center;
+	vertical-align: center;
+	padding: 10px 10px;
+}
+
+.be-green{
+	background-color: #E81E00;
+}
+
+.white{
+	color: #FFFFFF;
+}
+
+.fondo{
+	width: 1280px;
+    height: 530px;
+}
+
+.img-grup{
+	width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.img-pro{
+	width: 300px;
+	height:  300px;
+	border-radius: 290px;
+}
+
+.large-padding{
+	padding: 8px 5px;
+}
+
+.padding{
+	padding: 50px 60px;
+}
+
+ul{
+	list-style: none;
+}
+
+a,a:visited{
+	color: inherit;
+	text-decoration: none;
+}
+
+.no-margin{
+	margin: 0px;
+}
+
+#logo{
+	font-size: 1.2em;
+}
+
+.field, .top-space, .actions {
+	margin-top:1em; 
+}
+
+.top-space2{
+	margin-top:2em;
+}
+.green{
+	color: green !important; 
+	font-weight:bold;
+	font-size: 1.2em;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.form-control{
+	border: none;
+	border-bottom: 1px solid;
+	outline: none;
+	width: 100%;
+	display: block;
+	padding: 10px 0px;
+	font-size: 1.2em; 
+}
