@@ -16,7 +16,7 @@
 					include 'encabezado.php';
 				?>
 				<form name="f1" action="crear_cuenta2.php" method="post">
-					<div class="row center-xs">
+					<div class="row center-xs form-ppal">
 	  				<div class="col-xs-8 col-md-6">
 	      			<div class="box text-left">
 		        		<h2> Crear Cuenta </h2>
@@ -47,7 +47,7 @@
 		          	<div class="field">
 		            	<input type="password" name="txtClave2"/ class="form-control" placeholder= "Vuelve a escribir la Contraseña (Mínimo 8 Caracteres)"></label><br/>
 		          	</div>
-		          	<div class="actions" id="center-btn">
+		          	<div class="actions center-btn">
 		            	<input type="button" value="Aceptar" onclick="validar()"/ class="btn2 be-green white" ><br/>
 		          	</div>
 	      			</div>

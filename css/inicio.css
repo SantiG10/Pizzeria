@@ -1,14 +1,20 @@
 html,body{
 	margin: 0px;
 	font-family: 'Open Sans', sans-serif;
+	width: 100%;
 }
 
 h2 {
 	text-align: center;
 }
 
-#center-btn {
+.center-btn {
 	text-align: center;
+}
+
+.row.center-xs.form-ppal {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .btn{
