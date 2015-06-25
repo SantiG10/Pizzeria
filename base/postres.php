@@ -1,18 +1,14 @@
-<?php
-	session_start();
-?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Postres</title>
+		<title> Postres </title>
 		<link href="../css/inicio.css" rel="stylesheet">
 		<link href="../css/flexboxgrid.css" rel="stylesheet">
 	</head>
 	<body>
-		<?php
-				include'encabezado.php';
-		 ?>
+		<?php include'encabezado.php'; ?>
 		<table  class="table">
 			<tr>
 				<td>
@@ -32,6 +28,6 @@
 				</td>
 			</tr>
 	</table>
-	<?php include 'footer.php' ?>
+	<?php include 'footer.php'; ?>
 	</body>
 </html>

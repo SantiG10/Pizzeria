@@ -1,6 +1,4 @@
-<?php
-	session_start();
-?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -9,16 +7,12 @@
 		<link href="./css/inicio.css" rel="stylesheet">
 		<link href="./css/normalize.css" rel="stylesheet">
 		<link href="./css/flexboxgrid.css" rel="stylesheet">
-
 	</head>
 	<body>
 		<main>
-			<?php
-				include './base/encabezado.php';
-			?>
+			<?php include './base/encabezado.php'; ?>
 			<img src="./images/fondo.jpg" class="fondo">
 		</main>
-
 		<?php include './base/footer.php' ?>
 	</body>
 </html>

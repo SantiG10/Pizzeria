@@ -1,6 +1,4 @@
-<?php
-	session_start();
-?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -11,11 +9,7 @@
 	</head>
 	<body>
 		<main>
-
-
-			<?php
-				include 'encabezado.php';
-			?>
+			<?php include 'encabezado.php'; ?>
 				<form name="f1" action="iniciar_sesion2.php" method="post">
 					<div class="row center-xs form-ppal">
 	  				<div class="col-xs-8 col-md-6">
@@ -34,8 +28,8 @@
 	  				</div>
 					</div>
 				<form>
-			</main>
-				<?php include 'footer.php' ?>
-				<script src="../script/iniciar_sesion.js"></script>
+		</main>
+		<?php include 'footer.php'; ?>
+		<script src="../script/iniciar_sesion.js"></script>
 	</body>
 </html>

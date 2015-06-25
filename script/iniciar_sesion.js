@@ -4,7 +4,7 @@ function validar(){
 
 	if(U == "" || C == ""){
 		alert("Faltan Datos..!");
-	} else{
+	} else {
 		document.f1.submit();
 	}
 }

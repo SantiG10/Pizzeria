@@ -1,4 +1,5 @@
 -- grant all privileges on *.* to pizzeria@localhost identified by '1234';
+grant all privileges on *.* to pizzeria@localhost identified by '1234';
 drop database if exists pizzeria;
 create database if not exists pizzeria;
 use pizzeria;

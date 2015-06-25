@@ -1,6 +1,4 @@
-<?php
-	session_start();
- ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,9 +8,8 @@
 	<link href="../css/flexboxgrid.css" rel="stylesheet">
 </head>
 <body>
-	<?php
-		include 'encabezado.php';
-	?>
+	<?php include 'encabezado.php'; ?>
+
 	<table  class="table">
 		<tr>
 			<td>
@@ -23,7 +20,7 @@
 			<td>
 				<img src="../images/productos/pizzas/ternera.jpg" class="img-pro"/>
 				<br/>
-				<h2>Ternera con Bambú</h2>
+				<h2> Ternera con Bambú </h2>
 			</td>
 			<td>
 				<img src="../images/productos/pizzas/polloAlmendras.jpg" class="img-pro"/>
@@ -37,6 +34,6 @@
 			</td>
 		</tr>
 	</table>
-	<?php include 'footer.php' ?>
+	<?php include 'footer.php'; ?>
 </body>
 </html>
