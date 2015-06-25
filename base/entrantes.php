@@ -1,4 +1,4 @@
-<?php 
+<?php
  session_start();
  ?>
 <!DOCTYPE html>
@@ -10,7 +10,7 @@
 	<link href="../css/flexboxgrid.css" rel="stylesheet">
 </head>
 <body>
-		<?php 
+		<?php
 				include'encabezado.php';
 		 ?>
 		<table  class="table">
@@ -37,5 +37,6 @@
 				</td>
 			</tr>
 		</table>
+    <?php include 'footer.php' ?>
 </body>
 </html>

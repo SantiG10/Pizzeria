@@ -1,4 +1,4 @@
-<?php 
+<?php
 	session_start();
  ?>
 <!DOCTYPE html>
@@ -37,5 +37,6 @@
 			</td>
 		</tr>
 	</table>
+	<?php include 'footer.php' ?>
 </body>
 </html>

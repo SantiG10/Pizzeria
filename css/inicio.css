@@ -3,12 +3,20 @@ html,body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+	text-align: center;
+}
+
+#center-btn {
+	text-align: center;
+}
+
 .btn{
 	background-color: inherit;
 	border: none;
 	outline: none;
 	text-transform: uppercase;
-	cursor: pointer; 
+	cursor: pointer;
 	font-size: 1.2em;
 	padding: 10px 12px;
 	display:block;
@@ -21,23 +29,24 @@ html,body{
 	border: none;
 	outline: none;
 	text-transform: uppercase;
-	cursor: pointer; 
+	cursor: pointer;
 	font-size: 1.2em;
 	padding: 10px 12px;
+	margin-bottom: 10px;
 }
 
 .table{
 	width: 500px;
 	border: 0px;
 	padding: 60px 5px;
-	margin-left:auto; 
+	margin-left:auto;
     margin-right:auto;
 }
 
 .table2{
 	width: 800px;
 	border: 0px;
-	margin-left:auto; 
+	margin-left:auto;
     margin-right:auto;
 }
 
@@ -68,8 +77,10 @@ td{
 }
 
 .fondo{
-	width: 1280px;
-    height: 530px;
+	/* width: 1280px; */
+	width: 1440px;
+  height: 530px;
+	margin-bottom: -5px;
 }
 
 .img-grup{
@@ -110,14 +121,14 @@ a,a:visited{
 }
 
 .field, .top-space, .actions {
-	margin-top:1em; 
+	margin-top:1em;
 }
 
 .top-space2{
 	margin-top:2em;
 }
 .green{
-	color: green !important; 
+	color: green !important;
 	font-weight:bold;
 	font-size: 1.2em;
 }
@@ -133,5 +144,21 @@ a,a:visited{
 	width: 100%;
 	display: block;
 	padding: 10px 0px;
-	font-size: 1.2em; 
+	font-size: 1.2em;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background: #E81E00;
+	color: white;
+	text-align: center;
 }

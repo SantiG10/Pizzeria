@@ -10,6 +10,8 @@
 		<link href="../css/flexboxgrid.css" rel="stylesheet">
 	</head>
 	<body>
+		<main>
+
 				<?php
 					include 'encabezado.php';
 				?>
@@ -45,13 +47,15 @@
 		          	<div class="field">
 		            	<input type="password" name="txtClave2"/ class="form-control" placeholder= "Vuelve a escribir la Contraseña (Mínimo 8 Caracteres)"></label><br/>
 		          	</div>
-		          	<div class="actions">
+		          	<div class="actions" id="center-btn">
 		            	<input type="button" value="Aceptar" onclick="validar()"/ class="btn2 be-green white" ><br/>
 		          	</div>
 	      			</div>
 	  				</div>
 					</div>
 				<form>
-				<script src="../script/crear_cuenta.js"></script>	
+					</main>
+				<?php include 'footer.php' ?>
+				<script src="../script/crear_cuenta.js"></script>
 	</body>
 </html>

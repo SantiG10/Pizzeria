@@ -1,4 +1,4 @@
-grant all privileges on *.* to pizzeria@localhost identified by '1234';
+-- grant all privileges on *.* to pizzeria@localhost identified by '1234';
 drop database if exists pizzeria;
 create database if not exists pizzeria;
 use pizzeria;
@@ -24,10 +24,10 @@ email varchar(20) not null,
 puntos int(10),
 foreign key (email) references usuarios(user));
 
-create table pedido(
-id int auto_increment primary key,
-
-);
+-- create table pedido(
+-- id int auto_increment primary key,
+--
+-- );
 
 create table grupos(
 id int auto_increment primary key,
@@ -54,13 +54,8 @@ INSERT INTO grupos (id, descripcion) VALUES
 (3, 'postres'),
 (4, 'bebidas');
 
-INSERT INTO productos (id, descripcion, valor1, valor2, valor3, grupo) VALUES 
+INSERT INTO productos (id, descripcion, valor1, valor2, valor3, grupo) VALUES
 ('1', 'Tres delicias', '15000', '22000', '30000', '1'),
 ('2', 'Pollo con almendras', '15000', '22000', '30000', '1'),
 ('3', 'Ternera con bambú', '15000', '22000', '30000', '1'),
 ('4', 'Cerdo agridulce', '15000', '22000', '30000', '1');
-
-
-
-
-

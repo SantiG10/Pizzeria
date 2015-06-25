@@ -10,6 +10,9 @@
 		<link href="../css/flexboxgrid.css" rel="stylesheet">
 	</head>
 	<body>
+		<main>
+
+
 			<?php
 				include 'encabezado.php';
 			?>
@@ -31,6 +34,8 @@
 	  				</div>
 					</div>
 				<form>
-				<script src="../script/iniciar_sesion.js"></script>	
+			</main>
+				<?php include 'footer.php' ?>
+				<script src="../script/iniciar_sesion.js"></script>
 	</body>
 </html>
